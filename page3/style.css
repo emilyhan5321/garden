@@ -1,6 +1,4 @@
-body {
-    background-color:rgba(21, 255, 0, 0.517);
-}
+
 
 .navbar {
     display:inline-flex;
@@ -14,4 +12,18 @@ body {
 
 p {
     text-align: center;
+}
+
+
+.container {
+  display: grid;
+  background-color: rgba(21, 255, 0, 0.517);
+  padding: 10px;
+}
+.container div {
+  background-color: #ffffff87;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 15px;
+  text-align: center;
 }
